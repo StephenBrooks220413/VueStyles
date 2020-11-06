@@ -10,7 +10,7 @@
                         <h4 class="card-text">Kid's Cuts</h4>
                         <h2>$16</h2>
 
-                        <button class="btn btn-primary">Kids' Gallery</button>
+                        <button class="btn btn-primary">MAKE APPOINTMENT</button>
                     </center>
                 </div>
             </div>
@@ -23,7 +23,7 @@
                         <h4 class="card-text">Men's Cuts</h4>
                         <h2>$16</h2>
 
-                        <button class="btn btn-primary">Men's Gallery</button>
+                        <button class="btn btn-primary">MAKE APPOINTMENT</button>
                     </center>
                 </div>
             </div>
@@ -36,7 +36,7 @@
                         <h4 class="card-text">Women's Cuts</h4>
                         <h2>$16</h2>
 
-                        <button class="btn btn-primary">Women's Gallery</button>
+                        <button class="btn btn-primary">MAKE APPOINTMENT</button>
                     </center>
                 </div>
             </div>
@@ -55,15 +55,14 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style>
-    .card-body h1 {
-        color: orangered;
-    }
-    .card-group {
-        margin-bottom: 130px;
-    }
-    .footer {
-        margin-top:70px;
-        padding-top: 60px;
-        padding-bottom: 60px;
+    #schedule {
+        margin-top: 90px;
+        margin-bottom: 90px;
+        border: 1px solid grey;
+        border-radius:4px;
+        width: 350px;
+        height: auto;
+        padding-top:20px;
+        padding-bottom:30px;
     }
 </style>
