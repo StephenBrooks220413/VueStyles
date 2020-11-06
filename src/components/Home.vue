@@ -36,6 +36,40 @@
                 </div>
             </div>
         </div>
+        <br><br>
+        <div class="container articleBg text-center" style="width:70%">
+            <h1 class="display-4">Article Title</h1>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti laborum, 
+            pariatur quos molestiae sit similique necessitatibus optio reiciendis suscipit, asperiores 
+            beatae expedita accusantium! Eveniet, repellendus nisi molestias magnam ab quibusdam? Lorem 
+            ipsum dolor sit amet consectetur, adipisicing elit. Voluptate illo molestiae sunt eaque 
+            aspernatur modi at rerum, consequuntur laboriosam quam soluta dolorum dolore dolorem, adipisci 
+            libero. Quae aliquid adipisci architecto!
+            </p>
+        </div>
+        <br><br><br><br><br><br>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center">
+                    <img src="https://momunicipallaw.files.wordpress.com/2017/02/cell-phone1.png" width="240px" height="290px" alt="phone">
+                </div>
+                <div class="col-md-6">
+                    <h1>Flexibility</h1>
+                    <p>
+                        Built mobile first and remains flexible for any viewing device,
+                        using Vue.js and Bootstrap.
+                    </p>
+                    <br><br>
+                    <h1>Reliability</h1>
+                    <p>
+                        Light for bandwidth and fast on web pages, no need to worry about 
+                        acquiring more servers.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <br><br><br><br><br><br>
     </div>
 </template>
 
@@ -46,6 +80,8 @@
             msg: String
         }
     };
+    // Initialize and add the map
+    
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
@@ -73,6 +109,23 @@
     }
     .features hr {
         width: 60%;
+    }
+    .articleBg{
+        background: url(https://i.stack.imgur.com/M2A8V.png) no-repeat center center; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    .articleBg p {
+        font-weight: 600!important;
+    }
+    /* Set the size of the div element that contains the map */
+    #map {
+    height: 400px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
     }
 </style>
 
